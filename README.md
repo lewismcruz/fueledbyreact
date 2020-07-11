@@ -51,4 +51,5 @@ Link to Lewis' GitHub Markdown info page:</br>
 # Special Thank You
 
 I would like to thank all of my mentors, teachers, instructors, friends, and family that took time out of their lives to help shape who I am today.</br>
-I would not be where I am without you all. With love, admiration, and respect.
+I would not be where I am without you all.</br>
+With love, admiration, and respect.
