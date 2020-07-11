@@ -2,8 +2,6 @@
 
 This is a repository with some work samples.
 
-Here is the Express.js version of my portfolio:
-
 # Portfolio Pieces
 
 ## Spritzy Drink and Cocktail Suggestion App
