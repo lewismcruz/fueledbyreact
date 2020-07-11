@@ -5,7 +5,7 @@ This is a repository with some work samples.
 # Portfolio Pieces
 
 ## Spritzy Drink and Cocktail Suggestion App
-Celeste Bremby and I created this application to help busy professionals discover new mixed drink and cocktail recipes for social and networking events.
+Celeste Bembry and I created this application to help busy professionals discover new mixed drink and cocktail recipes for social and networking events.
 
 Team contributors:</br>
 Celest Bembry</br>
