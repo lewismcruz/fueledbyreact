@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from "react";
 //import BuildResume from "./components/Resume";
-import RenderContact from "./components/contact";
+import RenderContact from "./components/pages/Contact";
 
 
 // ===== Use later when I understand how these work =====
