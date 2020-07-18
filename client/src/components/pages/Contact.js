@@ -12,18 +12,18 @@ function RenderContact() {
           </div>
           <div className="card mb-4">
             <div className="card-header">
-              <h3>Card title</h3>
+              <h3>I'm on LinkedIn</h3>
             </div>
             <div className="card-body">
-              <p className="card-text">Card content</p>
+              <p className="card-text"><a href="https://www.linkedin.com/in/lewis-c-2a775b1a8/">LinkedIn</a></p>
             </div>
           </div>
           <div className="card mb-4">
             <div className="card-header">
-              <h3>Card title</h3>
+              <h3>I'm on GitHub</h3>
             </div>
             <div className="card-body">
-              <p className="card-text">Card content</p>
+              <p className="card-text"><a href="https://github.com/lewismcruz">GitHub</a></p>
             </div>
           </div>
         </div>

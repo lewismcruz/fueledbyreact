@@ -18,6 +18,11 @@ function NavTabs(props) {
                   Resume
               </a>
           </li>
+          <li className="nav=item">
+              <a href="#interestingpeople" onClick={() => props.handlePageChange("InterestingPeople")} className="nav-link">
+                  CoolPeople
+              </a>
+          </li>
           <li className="nav-item">
             <a href="#contact" onClick={() => props.handlePageChange("Contact")} className="nav-link">
               Contact

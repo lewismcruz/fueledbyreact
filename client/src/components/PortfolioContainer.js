@@ -3,7 +3,9 @@ import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
+import InterestingPeople from "./pages/InterestingPeople";
 import Contact from "./pages/Contact";
+
 
 
 class PortfolioContainer extends Component {
@@ -25,6 +27,9 @@ class PortfolioContainer extends Component {
         }
         else if (this.state.currentPage === "Resume") {
             return <Resume />
+        }
+        else if (this.state.currentPage === "InterestingPeople") {
+            return <InterestingPeople />
         }
         else {
             return <Contact />
