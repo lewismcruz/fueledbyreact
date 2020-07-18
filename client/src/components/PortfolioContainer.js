@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 
 class PortfolioContainer extends Component {
     state = {
-        currentPage: "About"
+        currentPage: "Home"
     };
     
     handlePageChange = page => {
@@ -16,14 +17,16 @@ class PortfolioContainer extends Component {
 
     renderAPage = () => {
         console.log(this.state.currentPage)
-        if (this.stage.currentPage === "About") {
+        if (this.state.currentPage === "Home") {
+            return <Home />
+        }
+        else if (this.state.currentPage === "About") {
             return <About />
         }
         else if (this.state.currentPage === "Resume") {
             return <Resume />
         }
         else {
-    
             return <Contact />
         }
     }

@@ -4,7 +4,7 @@ function RenderContact() {
     return (
         <div className="container">
           <div className="jumbotron">
-            <h1>Lewis Cruz - Fullstack Developer - Houston, TX</h1>
+            <h1>Lewis Cruz - Houston, TX</h1>
             <p>Technology professional and developer.</p>
             <p>
               <button className="btn btn-primary btn-lg">Learn more</button>

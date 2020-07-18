@@ -1,7 +1,16 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from "react";
-//import BuildResume from "./components/Resume";
-import RenderContact from "./components/pages/Contact";
+import PortfolioContainer from "./components/PortfolioContainer";
+// import BuildResume from "./components/Resume";
+// import RenderContact from "./components/pages/Contact";
+
+
+function App() {
+  return <PortfolioContainer />;
+}
+export default App;
+
+
 
 
 // ===== Use later when I understand how these work =====
@@ -33,8 +42,3 @@ function BuildResume() {
   return <BuildResume />;
 }
 */
-
-function App() {
-  return <RenderContact />;
-}
-export default App;
